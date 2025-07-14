@@ -1,13 +1,257 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" tema="escuro">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Jean Lima</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-    
+
+    <header>
+        <div id="header-container">
+            <a href="index.html" id="link-voltar-inicio">Jean Lima</a>
+            <nav id="nav-container">
+                <span class="menu-hamburguer">
+                    <span class="menu-hamburguer-barra" id="menu-hamburguer-barra-1"></span>
+                    <span class="menu-hamburguer-barra" id="menu-hamburguer-barra-2"></span>
+                    <span class="menu-hamburguer-barra" id="menu-hamburguer-barra-3"></span>
+                </span>
+                <ul id="lista-links-menu">
+                    <li class="links-menu-item">
+                        <a href="#secao-home" class="link-navegacao">Home</a>
+                    </li>
+                    <li class="links-menu-item">
+                        <a href="#secao-sobre-mim" class="link-navegacao">Sobre Mim</a>
+                    </li>
+                    <li class="links-menu-item">
+                        <a href="#secao-projetos" class="link-navegacao">Projetos</a>
+                    </li>
+                    <li class="links-menu-item">
+                        <a href="#secao-formacao" class="link-navegacao">Formação</a>
+                    </li>
+                    <li class="links-menu-item">
+                        <a href="#secao-experiencia" class="link-navegacao">Experiência</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="main-container">
+            <section id="secao-home">
+                <div id="apresentacao-container">
+                    <h1 id="titulo-apresentacao">Olá, eu sou o Jean Lima <br> E sou <br>
+                        <span class="destaque">&lt;&sol;desenvolvedor frontend&gt;</span>
+                    </h1>
+                    <p id="resumo-home">Eu sou um desenvolvedor apaixonado por frontend em formação, com curso técnico
+                        de
+                        ADS concluído e duas graduações tecnológicas em curso.</p>
+                    <ul id="lista-redes-sociais-home">
+                        <li class="redes-sociais-home-item">
+                            <a class="link-redes-sociais" target="_blank"
+                                href="https://www.linkedin.com/in/jean-carlos-oliveira-lima-454460281/">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="redes-sociais-home-item">
+                            <a class="link-redes-sociais" target="_blank" href="https://github.com/jeancarloslima">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="conhecimento-container">
+                    <h2 id="titulo-conhecimento">CONHECIMENTO</h2>
+                    <ul id="lista-conhecimnento">
+                        <li class="conhecimento-item">
+                            <i class="fa-brands fa-html5"></i>
+                        </li>
+                        <li class="conhecimento-item">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </li>
+                        <li class="conhecimento-item">
+                            <i class="fa-brands fa-js"></i>
+                        </li>
+                        <li class="conhecimento-item">
+                            <i class="fa-brands fa-square-github"></i>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="secao-sobre-mim">
+                <h2 id="titulo-sobre-mim">SOBRE MIM<span class="destaque-maior">.</span></h2>
+                <h3 id="subtitulo-sobre-mim">Um desenvolvedor frontend apaixonado.</h3>
+                <p id="descricao-sobre-mim">Tenho 20 anos e sou formado no curso técnico de Análise e Desenvolvimento de
+                    Sistemas pela ETEC Itaquaquecetuba. Atualmente, estou cursando o tecnólogo em Gestão da Tecnologia
+                    da
+                    Informação na FATEC Itaquaquecetuba (5° semestre de 6) e mais recentemente graduação em Engenharia
+                    de
+                    Software pela INFNET, modalidade EAD (1° semestre de 8). Desde cedo, sou movido pela paixão por
+                    tecnologia, com foco especial em programação e, principalmente, no desenvolvimento Front-end.</p>
+            </section>
+
+            <section id="secao-projetos">
+                <h2 id="titulo-projetos">PROJETOS<span class="destaque-maior">.</span></h2>
+                <ul id="lista-projetos">
+                    <li class="projetos-item">
+                        <img src="images/comparatives-site-print.JPG" alt="" class="imagem-projeto">
+                        <div class="resumo-projeto">
+                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                            <p class="descricao-projeto">Um criador simples de pixel art com ferramentas como cor
+                                principal e secundária com color picker, mudança do tamanho do lápis, to tamnho da tela
+                                e botão limpar tudo.</p>
+                            <span class="tecnologias-projeto">HTML CSS JAVASCRIPT</span>
+                            <div class="botoes-projeto">
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projetos-item">
+                        <img src="images/comparatives-site-print.JPG" alt="" class="imagem-projeto">
+                        <div class="resumo-projeto">
+                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                            <p class="descricao-projeto">Um criador simples de pixel art com ferramentas como cor
+                                principal e secundária com color picker, mudança do tamanho do lápis, to tamnho da tela
+                                e botão limpar tudo.</p>
+                            <span class="tecnologias-projeto">HTML CSS JAVASCRIPT</span>
+                            <div class="botoes-projeto">
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projetos-item">
+                        <img src="images/comparatives-site-print.JPG" alt="" class="imagem-projeto">
+                        <div class="resumo-projeto">
+                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                            <p class="descricao-projeto">Um criador simples de pixel art com ferramentas como cor
+                                principal e secundária com color picker, mudança do tamanho do lápis, to tamnho da tela
+                                e botão limpar tudo.</p>
+                            <span class="tecnologias-projeto">HTML CSS JAVASCRIPT</span>
+                            <div class="botoes-projeto">
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projetos-item">
+                        <img src="images/comparatives-site-print.JPG" alt="" class="imagem-projeto">
+                        <div class="resumo-projeto">
+                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                            <p class="descricao-projeto">Um criador simples de pixel art com ferramentas como cor
+                                principal e secundária com color picker, mudança do tamanho do lápis, to tamnho da tela
+                                e botão limpar tudo.</p>
+                            <span class="tecnologias-projeto">HTML CSS JAVASCRIPT</span>
+                            <div class="botoes-projeto">
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projetos-item">
+                        <img src="images/comparatives-site-print.JPG" alt="" class="imagem-projeto">
+                        <div class="resumo-projeto">
+                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                            <p class="descricao-projeto">Um criador simples de pixel art com ferramentas como cor
+                                principal e secundária com color picker, mudança do tamanho do lápis, to tamnho da tela
+                                e botão limpar tudo.</p>
+                            <span class="tecnologias-projeto">HTML CSS JAVASCRIPT</span>
+                            <div class="botoes-projeto">
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projetos-item">
+                        <img src="images/comparatives-site-print.JPG" alt="" class="imagem-projeto">
+                        <div class="resumo-projeto">
+                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                            <p class="descricao-projeto">Um criador simples de pixel art com ferramentas como cor
+                                principal e secundária com color picker, mudança do tamanho do lápis, to tamnho da tela
+                                e botão limpar tudo.</p>
+                            <span class="tecnologias-projeto">HTML CSS JAVASCRIPT</span>
+                            <div class="botoes-projeto">
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
+                                <a href="#" target="_blank" class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="secao-formacao">
+                <h2 id="titulo-formacao">FORMAÇÃO<span class="destaque-maior">.</span></h2>
+                <ul id="lista-formacao">
+                    <li class="formacao-item">
+                        <h3 class="titulo-formacao">Bacharelado: Engenharia de Software</h3>
+                        <h4 class="instituicao-formacao">INFNET (EAD)</h4>
+                        <h4 class="periodo-formacao">01/2025 - 12/2028</h4>
+                        <span class="status-formacao">Em Curso</span>
+                    </li>
+                    <li class="formacao-item">
+                        <h3 class="titulo-formacao">Técnologo: Gestão de Tecnologia da Informação</h3>
+                        <h4 class="instituicao-formacao">FATEC Itaquaquecetuba</h4>
+                        <h4 class="periodo-formacao">01/2023 - 12/2025</h4>
+                        <span class="status-formacao">Em Curso</span>
+                    </li>
+                    <li class="formacao-item">
+                        <h3 class="titulo-formacao">Ensini Médio Técnico - Análise e Desenvolvimento de Sistemas</h3>
+                        <h4 class="instituicao-formacao">ETEC Itaquaquecetuba</h4>
+                        <h4 class="periodo-formacao">01/2020 - 12/2022</h4>
+                        <span class="status-formacao">Concluído</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="secao-experiencia">
+                <h2 id="titulo-experiencia">Experiência<span class="destaque-maior">.</span></h2>
+                <ul id="lista-experiencia">
+                    <li class="experiencia-item">
+                        Não possuo nenhuma experiência na área ainda. <br> Me ajude a conseguir a primeira. &#128512;
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-container">
+            <section id="secao-contato">
+                <h2 id="titulo-contato">CONTATO<span class="destaque-maior">.</span></h2>
+                <ul id="lista-contato">
+                    <li class="contato-item">
+                        <a class="link-contato" target="_blank" href="https://www.linkedin.com/in/jean-carlos-oliveira-lima-454460281/">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <h3 class="contato-item-titulo">Linkedin</h3>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </li>
+                    <li class="contato-item">
+                        <a class="link-contato" target="_blank" href="https://github.com/jeancarloslima">
+                            <i class="fa-brands fa-github"></i>
+                            <h3 class="contato-item-titulo">Github</h3>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <p id="paragrafo-copyright">&copy;2025 | Feito por: Jean Carlos Oliveira Lima</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
