@@ -9,7 +9,6 @@
 
     /* Fontes */
     --fonte-primaria: "Poppins", sans-serif;
-    --fonte-secundaria: "Montserrat", sans-serif;
 
     /* Configurações */
     font-size: 16px;
@@ -21,8 +20,11 @@
     --cor-primaria: #28c06a;
 }
 
-html {
+* {
     box-sizing: border-box;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -51,14 +53,15 @@ header {
 }
 
 #header-container {
-    height: 50px;
+    height: 82px;
     display: flex;
     align-items: center;
-    padding: 1rem 1.3rem;
+    padding: 2rem;
 }
 
 #link-voltar-inicio {
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 1.4rem;
     color: var(--cor-primaria);
 }
 
@@ -66,7 +69,7 @@ header {
     margin-left: auto;
 }
 
-.menu-hamburguer {
+#menu-hamburguer {
     width: 40px;
     height: 30px;
     display: block;
@@ -96,16 +99,16 @@ header {
     top: 25px;
 }
 
-.menu-hamburguer.ativo #menu-hamburguer-barra-1 {
+#menu-hamburguer.ativo #menu-hamburguer-barra-1 {
     top: 15px;
     transform: rotate(-45deg);
 }
 
-.menu-hamburguer.ativo #menu-hamburguer-barra-2 {
+#menu-hamburguer.ativo #menu-hamburguer-barra-2 {
     display: none;
 }
 
-.menu-hamburguer.ativo #menu-hamburguer-barra-3 {
+#menu-hamburguer.ativo #menu-hamburguer-barra-3 {
     top: 15px;
     transform: rotate(45deg);
 }
@@ -120,7 +123,7 @@ header {
     top: 82px;
 }
 
-.menu-hamburguer.ativo+#lista-links-menu {
+#menu-hamburguer.ativo+#lista-links-menu {
     width: 100%;
     height: 100dvh;
     background-color: var(--cor-fundo);
@@ -133,7 +136,6 @@ header {
 
 .link-navegacao {
     color: var(--cor-texto);
-    font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
     font-weight: 600;
     transition: .3s;
@@ -160,14 +162,20 @@ header {
     gap: 2rem;
 }
 
+#imagem-apresentacao {
+    width: min(calc(50dvw + 120px), 500px);
+    margin: auto;
+}
+
 #titulo-apresentacao {
-    font-size: 6dvw;
+    font-size: min(6dvw, 40px);
     font-weight: 600;
-    font-family: var(--fonte-secundaria);
-    line-height: 12dvw;
+    line-height: min(12dvw, 80px);
 }
 
 #resumo-home {
+    width: min(100%, 500px);
+    margin: auto;
     line-height: 2rem;
 }
 
@@ -256,6 +264,8 @@ header {
 }
 
 #descricao-sobre-mim {
+    width: min(100%, 620px);
+    margin: auto;
     text-align: justify;
     line-height: 2rem;
 }
@@ -267,23 +277,38 @@ header {
     gap: 5rem;
 }
 
+.projetos-item {
+    width: min(100%, 620px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
 .imagem-projeto {
     width: 100%;
-    height: 200px;
+    max-height: 300px;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+}
+
+.resumo-projeto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .titulo-projeto {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 600;
     color: var(--cor-primaria);
 }
 
 .descricao-projeto {
     text-align: justify;
     line-height: 2rem;
-    margin: 1.5rem 0;
 }
 
 .lista-tecnologias-projeto {
@@ -295,22 +320,21 @@ header {
 }
 
 .tecnologias-projeto-item {
-    font-size: 1.1rem;
-    font-weight: 500;
-    border: 1px solid var(--cor-texto);
-    border-radius: 16px;
-    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .5rem 0;
 }
 
 .botoes-projeto {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
-    margin-top: 2rem;
 }
 
 .botao-projeto {
-    width: 100%;
+    width: min(100%, 300px);
     height: 50px;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -347,6 +371,7 @@ header {
 #lista-experiencia {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3rem;
 }
 
@@ -355,7 +380,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: calc(100% - 1rem);
+    width: min(100%, 380px);
     padding: 2rem .5rem;
     font-weight: 500;
     border: 2px solid var(--cor-texto);
@@ -401,13 +426,14 @@ header {
 
 #lista-contato {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
 .contato-item {
-    width: calc(100% - 2rem);
-    padding: 2rem 1rem;
+    width: min(100%, 400px);
+
     border: 1px solid var(--cor-texto);
     border-radius: 16px;
     transition: .3s;
@@ -432,6 +458,7 @@ header {
     align-items: center;
     gap: 1rem;
     color: var(--cor-texto);
+    padding: 2rem 1rem;
 }
 
 .contato-item-titulo {
@@ -448,7 +475,6 @@ header {
     text-align: center;
     margin: 4rem 0 2rem;
     line-height: 1.5rem;
-    font-size: .9rem;
 }
 
 @keyframes balanca {
@@ -458,5 +484,83 @@ header {
 
     66% {
         transform: translateX(13px) rotate(-5deg);
+    }
+}
+
+@media (min-width: 800px) {
+    #header-container {
+        justify-content: space-evenly;
+    }
+
+    #nav-container {
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #menu-hamburguer {
+        display: none;
+    }
+
+    #lista-links-menu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        width: auto;
+        height: auto;
+        position: static;
+    }
+
+    #menu-hamburguer.ativo+#lista-links-menu {
+        width: auto;
+        height: auto;
+    }
+
+    .links-menu-item {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .link-navegacao {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projetos-item {
+        width: min(100%, 1250px);
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .projetos-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .imagem-projeto {
+        width: 620px;
+        height: 100%;
+        max-height: none;
+        min-height: 360px;
+        object-fit: cover;
+    }
+
+    .projetos-item:nth-child(odd) .resumo-projeto {
+        padding-right: 2rem;
+    }
+
+    .resumo-projeto {
+        width: 530px;
+        gap: 1.3rem;
+    }
+
+    .descricao-projeto {
+        line-height: 1.7rem;
+        text-align: center;
+    }
+
+    .botao-projeto {
+        width: 40%;
     }
 }

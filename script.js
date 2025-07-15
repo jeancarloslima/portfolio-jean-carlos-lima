@@ -1,6 +1,6 @@
 const htmlElemento = document.documentElement;
 const tema = htmlElemento.getAttribute("tema");
-const botaoAbreMenuHamburguer = document.querySelector(".menu-hamburguer");
+const botaoAbreMenuHamburguer = document.getElementById("menu-hamburguer");
 const linksNavegacao = document.querySelectorAll(".link-navegacao");
 
 botaoAbreMenuHamburguer.addEventListener("click", () => {
