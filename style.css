@@ -2,14 +2,14 @@
 
 :root {
     /* Cores */
-    --cor-fundo: #FEFEFE;
+    --cor-fundo: #e7e7e7;
     --cor-texto: #181D2B;
     --cor-primaria: #28c06a;
-    transition: background-color 0.3s, color 0.3s;
-
+    --cor-html: #F15A2B;
+    --cor-css: #1775BB;
+    --cor-javascript: #FCB040;
     /* Fontes */
     --fonte-primaria: "Poppins", sans-serif;
-
     /* Configurações */
     font-size: 16px;
 }
@@ -22,6 +22,7 @@
 
 * {
     box-sizing: border-box;
+    transition: background-color 0.3s;
 }
 
 html {
@@ -66,7 +67,24 @@ header {
 }
 
 #nav-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     margin-left: auto;
+}
+
+#btn-troca-tema {
+    font-size: 1.5rem;
+    padding: 0;
+    background-color: transparent;
+    color: var(--cor-texto);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#icone-botao-troca-tema {
+    width: 25px;
 }
 
 #menu-hamburguer {
@@ -225,15 +243,15 @@ header {
 }
 
 .fa-html5 {
-    color: #F15A2B;
+    color: var(--cor-html);
 }
 
 .fa-css3-alt {
-    color: #1775BB;
+    color: var(--cor-css);
 }
 
 .fa-js {
-    color: #FCB040;
+    color: var(--cor-javascript);
 }
 
 #secao-sobre-mim,
@@ -487,14 +505,13 @@ header {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 840px) {
     #header-container {
         justify-content: space-evenly;
     }
 
     #nav-container {
-        display: flex;
-        align-items: center;
+        flex-direction: row-reverse;
         margin-left: 0;
     }
 
