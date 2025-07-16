@@ -152,6 +152,10 @@ header {
     margin-bottom: 2rem;
 }
 
+.links-menu-item:nth-child(1) {
+    margin-top: 2rem;
+}
+
 .link-navegacao {
     color: var(--cor-texto);
     font-size: 1.2rem;
@@ -535,7 +539,11 @@ header {
 
     .links-menu-item {
         text-align: left;
-        margin-bottom: 0;
+        margin: 0;
+    }
+
+    .links-menu-item:nth-child(1) {
+        margin: 0;
     }
 
     .link-navegacao {
@@ -544,6 +552,15 @@ header {
 }
 
 @media (min-width: 1200px) {
+
+    #secao-sobre-mim,
+    #secao-projetos,
+    #secao-formacao,
+    #secao-experiencia,
+    #secao-contato {
+        padding-top: 150px;
+    }
+
     .projetos-item {
         width: min(100%, 1250px);
         flex-direction: row;
