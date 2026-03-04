@@ -8,6 +8,7 @@
     --cor-html: #F15A2B;
     --cor-css: #1775BB;
     --cor-javascript: #FCB040;
+    --cor-react: #61DBFB;
     /* Fontes */
     --fonte-primaria: "Poppins", sans-serif;
     /* Configurações */
@@ -256,6 +257,10 @@ header {
 
 .fa-js {
     color: var(--cor-javascript);
+}
+
+.fa-react {
+    color: var(--cor-react);
 }
 
 #secao-sobre-mim,
