@@ -580,7 +580,7 @@ header {
     .imagem-projeto {
         width: 620px;
         height: 100%;
-        max-height: none;
+        max-height: 360px;
         min-height: 360px;
         object-fit: cover;
     }
