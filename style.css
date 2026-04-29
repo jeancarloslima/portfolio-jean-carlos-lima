@@ -416,6 +416,10 @@ header {
   line-height: 1.5rem;
 }
 
+.experiencia-item {
+  padding: 2rem;
+}
+
 .formacao-item::before,
 .experiencia-item::before {
   content: "";
@@ -445,10 +449,6 @@ header {
 
 .formacao-concluida::before {
   background-color: var(--cor-primaria);
-}
-
-.experiencia-item {
-  animation: balanca 3s infinite;
 }
 
 #lista-contato {
@@ -502,16 +502,6 @@ header {
   text-align: center;
   margin: 4rem 0 2rem;
   line-height: 1.5rem;
-}
-
-@keyframes balanca {
-  33% {
-    transform: translateX(-13px) rotate(5deg);
-  }
-
-  66% {
-    transform: translateX(13px) rotate(-5deg);
-  }
 }
 
 @media (min-width: 840px) {

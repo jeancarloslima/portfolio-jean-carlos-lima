@@ -1,329 +1,500 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br" tema="escuro">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio - Jean Lima</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div id="header-container">
-            <a href="index.html" id="link-voltar-inicio">Jean Lima</a>
-            <nav id="nav-container">
-                <button id="btn-troca-tema">
-                    <i class="fa-solid fa-sun" id="icone-botao-troca-tema"></i>
-                </button>
-                <span id="menu-hamburguer">
-                    <span class="menu-hamburguer-barra" id="menu-hamburguer-barra-1"></span>
-                    <span class="menu-hamburguer-barra" id="menu-hamburguer-barra-2"></span>
-                    <span class="menu-hamburguer-barra" id="menu-hamburguer-barra-3"></span>
-                </span>
-                <ul id="lista-links-menu">
-                    <li class="links-menu-item">
-                        <a href="#secao-home" class="link-navegacao">Home</a>
-                    </li>
-                    <li class="links-menu-item">
-                        <a href="#secao-sobre-mim" class="link-navegacao">Sobre Mim</a>
-                    </li>
-                    <li class="links-menu-item">
-                        <a href="#secao-projetos" class="link-navegacao">Projetos</a>
-                    </li>
-                    <li class="links-menu-item">
-                        <a href="#secao-formacao" class="link-navegacao">Formação</a>
-                    </li>
-                    <li class="links-menu-item">
-                        <a href="#secao-experiencia" class="link-navegacao">Experiência</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div id="header-container">
+        <a href="index.html" id="link-voltar-inicio">Jean Lima</a>
+        <nav id="nav-container">
+          <button id="btn-troca-tema">
+            <i class="fa-solid fa-sun" id="icone-botao-troca-tema"></i>
+          </button>
+          <span id="menu-hamburguer">
+            <span
+              class="menu-hamburguer-barra"
+              id="menu-hamburguer-barra-1"
+            ></span>
+            <span
+              class="menu-hamburguer-barra"
+              id="menu-hamburguer-barra-2"
+            ></span>
+            <span
+              class="menu-hamburguer-barra"
+              id="menu-hamburguer-barra-3"
+            ></span>
+          </span>
+          <ul id="lista-links-menu">
+            <li class="links-menu-item">
+              <a href="#secao-home" class="link-navegacao">Home</a>
+            </li>
+            <li class="links-menu-item">
+              <a href="#secao-sobre-mim" class="link-navegacao">Sobre Mim</a>
+            </li>
+            <li class="links-menu-item">
+              <a href="#secao-projetos" class="link-navegacao">Projetos</a>
+            </li>
+            <li class="links-menu-item">
+              <a href="#secao-formacao" class="link-navegacao">Formação</a>
+            </li>
+            <li class="links-menu-item">
+              <a href="#secao-experiencia" class="link-navegacao"
+                >Experiência</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <div id="main-container">
-            <section id="secao-home">
-                <div id="apresentacao-container">
-                    <img src="images/undraw_hello_ccwj.svg" alt="Ilustração de um programador dando oi"
-                        id="imagem-apresentacao">
-                    <h1 id="titulo-apresentacao">Olá, eu sou o Jean Lima <br> e sou <br>
-                        <span class="destaque">&lt;&sol;desenvolvedor frontend&gt;</span>
-                    </h1>
-                    <p id="resumo-home">Desenvolvedor front-end focado em criar soluções web modernas. Tenho formação
-                        concluída em ADS e em GTI e estou ampliando meu conhecimento com uma
-                        graduação em andamento em Engenharia de Software.</p>
-                    <ul id="lista-redes-sociais-home">
-                        <li class="redes-sociais-home-item">
-                            <a class="link-redes-sociais" target="_blank"
-                                href="https://www.linkedin.com/in/jean-carlos-oliveira-lima-454460281/">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li class="redes-sociais-home-item">
-                            <a class="link-redes-sociais" target="_blank" href="https://github.com/jeancarloslima">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
+      <div id="main-container">
+        <section id="secao-home">
+          <div id="apresentacao-container">
+            <img
+              src="images/undraw_hello_ccwj.svg"
+              alt="Ilustração de um programador dando oi"
+              id="imagem-apresentacao"
+            />
+            <h1 id="titulo-apresentacao">
+              Olá, eu sou o Jean Lima <br />
+              e sou <br />
+              <span class="destaque">&lt;&sol;desenvolvedor frontend&gt;</span>
+            </h1>
+            <p id="resumo-home">
+              Desenvolvedor front-end focado em criar soluções web modernas.
+              Tenho formação concluída em ADS e em GTI e estou ampliando meu
+              conhecimento com uma graduação em andamento em Engenharia de
+              Software.
+            </p>
+            <ul id="lista-redes-sociais-home">
+              <li class="redes-sociais-home-item">
+                <a
+                  class="link-redes-sociais"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jean-carlos-oliveira-lima-454460281/"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="redes-sociais-home-item">
+                <a
+                  class="link-redes-sociais"
+                  target="_blank"
+                  href="https://github.com/jeancarloslima"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div id="conhecimento-container">
+            <h2 id="titulo-conhecimento">CONHECIMENTO</h2>
+            <ul id="lista-conhecimnento">
+              <li class="conhecimento-item">
+                <i class="fa-brands fa-html5"></i>
+              </li>
+              <li class="conhecimento-item">
+                <i class="fa-brands fa-css3-alt"></i>
+              </li>
+              <li class="conhecimento-item">
+                <i class="fa-brands fa-js"></i>
+              </li>
+              <li class="conhecimento-item">
+                <i class="fa-brands fa-react"></i>
+              </li>
+              <li class="conhecimento-item">
+                <i class="fa-brands fa-square-github"></i>
+              </li>
+              <li class="conhecimento-item">
+                <i class="fa-brands fa-tailwind-css"></i>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="secao-sobre-mim">
+          <h2 id="titulo-sobre-mim">
+            SOBRE MIM<span class="destaque-maior">.</span>
+          </h2>
+          <h3 id="subtitulo-sobre-mim">
+            Um desenvolvedor frontend apaixonado.
+          </h3>
+          <p id="descricao-sobre-mim">
+            Olá, tenho 20 anos e movido por uma paixão antiga pela tecnologia,
+            direcionei minha carreira para o desenvolvimento Front-end,
+            começando com uma base técnica em
+            <span class="destaque"
+              >Análise e Desenvolvimento de Sistemas (ETEC)</span
+            >. Posteriormente, finalizei meu tecnólogo em
+            <span class="destaque"
+              >Gestão da Tecnologia da Informação na FATEC</span
+            >
+            para obter uma visão estratégica de negócio, atualmente aprofundo
+            minha expertise em código na graduação em
+            <span class="destaque"
+              >Engenharia de Software da INFNET (EAD, 3º de 8 semestres)</span
+            >. Essa jornada me capacita a criar interfaces que não são apenas
+            intuitivas e visualmente atraentes, mas também bem-estruturadas,
+            escaláveis e alinhadas aos objetivos de cada projeto.
+          </p>
+        </section>
+
+        <section id="secao-projetos">
+          <h2 id="titulo-projetos">
+            PROJETOS<span class="destaque-maior">.</span>
+          </h2>
+          <ul id="lista-projetos">
+            <li class="projetos-item">
+              <img
+                src="images/movie-of-the-day-print.PNG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Movie Of The Day</h3>
+                <p class="descricao-projeto">
+                  Um blog de reviews de filmes em inglês simples. Foco na
+                  aplicação do React Router e Tailwind.
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">REACT</li>
+                  <li class="tecnologias-projeto-item">VITE</li>
+                  <li class="tecnologias-projeto-item">TAILWIND</li>
+                </ul>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/movie-of-the-day"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://movie-of-the-day-alpha.vercel.app/"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
                 </div>
-
-                <div id="conhecimento-container">
-                    <h2 id="titulo-conhecimento">CONHECIMENTO</h2>
-                    <ul id="lista-conhecimnento">
-                        <li class="conhecimento-item">
-                            <i class="fa-brands fa-html5"></i>
-                        </li>
-                        <li class="conhecimento-item">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </li>
-                        <li class="conhecimento-item">
-                            <i class="fa-brands fa-js"></i>
-                        </li>
-                        <li class="conhecimento-item">
-                            <i class="fa-brands fa-react"></i>
-                        </li>
-                        <li class="conhecimento-item">
-                            <i class="fa-brands fa-square-github"></i>
-                        </li>
-                        <li class="conhecimento-item">
-                            <i class="fa-brands fa-tailwind-css"></i>
-                        </li>
-                    </ul>
+              </div>
+            </li>
+            <li class="projetos-item">
+              <img
+                src="images/dashboard-financeiro-print.PNG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Dashboard Financeiro Simples</h3>
+                <p class="descricao-projeto">
+                  Um dashboard financeiro simples, onde o usuário insere novas
+                  entradas e saídas financeiras para ver o saldo atual. Foco na
+                  aplicação dos hooks useReducer, useMemo, useCallback e no
+                  memo().
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">REACT</li>
+                  <li class="tecnologias-projeto-item">VITE</li>
+                </ul>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/dashboard-financeiro"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://dashboard-financeiro-eight-sigma.vercel.app/"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
                 </div>
-            </section>
-
-            <section id="secao-sobre-mim">
-                <h2 id="titulo-sobre-mim">SOBRE MIM<span class="destaque-maior">.</span></h2>
-                <h3 id="subtitulo-sobre-mim">Um desenvolvedor frontend apaixonado.</h3>
-                <p id="descricao-sobre-mim">Olá, tenho 20 anos e movido por uma paixão antiga pela tecnologia,
-                    direcionei minha carreira para
-                    o desenvolvimento Front-end, começando com uma base técnica em <span class="destaque">Análise e
-                        Desenvolvimento de Sistemas
-                        (ETEC)</span>. Posteriormente, finalizei meu tecnólogo em <span class="destaque">Gestão da
-                        Tecnologia da Informação na FATEC</span> para obter uma visão estratégica de negócio,
-                    atualmente aprofundo minha expertise
-                    em código na graduação em <span class="destaque">Engenharia de Software da INFNET (EAD, 3º de 8
-                        semestres)</span>.
-                    Essa jornada me capacita a criar interfaces que não são apenas intuitivas e visualmente
-                    atraentes, mas também bem-estruturadas, escaláveis e alinhadas aos objetivos de cada projeto.</p>
-            </section>
-
-            <section id="secao-projetos">
-                <h2 id="titulo-projetos">PROJETOS<span class="destaque-maior">.</span></h2>
-                <ul id="lista-projetos">
-                    <li class="projetos-item">
-                        <img src="images/movie-of-the-day-print.PNG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Movie Of The Day</h3>
-                            <p class="descricao-projeto">Um blog de reviews de filmes em inglês simples. Foco na aplicação do React Router e Tailwind.
-                            </p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">REACT</li>
-                                <li class="tecnologias-projeto-item">VITE</li>
-                                <li class="tecnologias-projeto-item">TAILWIND</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/movie-of-the-day" target="_blank"
-                                    class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
-                                <a href="https://movie-of-the-day-alpha.vercel.app/" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projetos-item">
-                        <img src="images/dashboard-financeiro-print.PNG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Dashboard Financeiro Simples</h3>
-                            <p class="descricao-projeto">Um dashboard financeiro simples, onde o usuário insere novas entradas e saídas financeiras para ver o saldo atual. Foco na aplicação dos hooks useReducer, useMemo, useCallback e no memo().
-                            </p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">REACT</li>
-                                <li class="tecnologias-projeto-item">VITE</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/dashboard-financeiro" target="_blank"
-                                    class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
-                                <a href="https://dashboard-financeiro-eight-sigma.vercel.app/" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projetos-item">
-                        <img src="images/metodo-pomodoro-print.PNG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Método Pomodoro</h3>
-                            <p class="descricao-projeto">Um site para execução do método pomodoro, com tempo de foco e descanso personalizáveis e uma lista de tarefas salva na localStorage. Foco na aplicação dos hooks useState, useEffect, useRef e useContext.
-                            </p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">REACT</li>
-                                <li class="tecnologias-projeto-item">VITE</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/metodo-pomorodo" target="_blank"
-                                    class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
-                                <a href="https://metodo-pomorodo.vercel.app/" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projetos-item">
-                        <img src="images/quiz-bandeiras-print.PNG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Quiz de Bandeiras</h3>
-                            <p class="descricao-projeto">Um jogo de escolher o nome certo do país de acordo com a bandeira mostrada, feito consumindo uma API.
-                            </p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">HTML</li>
-                                <li class="tecnologias-projeto-item">CSS</li>
-                                <li class="tecnologias-projeto-item">JAVASCRIPT</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/quiz-bandeiras" target="_blank"
-                                    class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
-                                <a href="https://quiz-bandeiras-one.vercel.app/" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projetos-item">
-                        <img src="images/metodo-kanban-print.PNG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Método Kanban</h3>
-                            <p class="descricao-projeto">Um projeto com um quadro do método kanban funcional. Com
-                                adição, edição e exclusão dos cards com localStorage.
-                            </p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">HTML</li>
-                                <li class="tecnologias-projeto-item">CSS</li>
-                                <li class="tecnologias-projeto-item">JAVASCRIPT</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/Metodo-kanban" target="_blank"
-                                    class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
-                                <a href="https://metodo-kanban.vercel.app/" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projetos-item">
-                        <img src="images/editor-pixel-art-print.JPG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Criador de Pixel Art</h3>
-                            <p class="descricao-projeto">Um criador de pixel art com ferramentas como cor
-                                principal e secundária com color picker, mudança do tamanho do lápis, do tamanho da tela
-                                de criação
-                                e botão limpar tudo.</p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">HTML</li>
-                                <li class="tecnologias-projeto-item">CSS</li>
-                                <li class="tecnologias-projeto-item">JAVASCRIPT</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/editor-pixel-art" target="_blank"
-                                    class="botao-projeto botao-acessar-repositorio">Acessar repositório</a>
-                                <a href="https://editor-pixel-art.vercel.app" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar projeto</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="projetos-item">
-                        <img src="images/vestibular-fatec-itaqua-print.JPG" alt="" class="imagem-projeto">
-                        <div class="resumo-projeto">
-                            <h3 class="titulo-projeto">Vestibular FATEC Itaquaquecetuba</h3>
-                            <p class="descricao-projeto">Um site estático dedicado ao vestibular da faculdade de
-                                tecnologia de Itaquaquecetuba, visando fornecer as informações acerca do mesmo de forma
-                                simples e direta. Desenvolvido como projeto de faculdade com o auxílio do também aluno
-                                <a target="_blank" href="https://github.com/DataGusIT"><span
-                                        class="destaque">Gustavo</span></a>.
-                            </p>
-                            <ul class="lista-tecnologias-projeto">
-                                <li class="tecnologias-projeto-item">HTML</li>
-                                <li class="tecnologias-projeto-item">CSS</li>
-                                <li class="tecnologias-projeto-item">JAVASCRIPT</li>
-                            </ul>
-                            <div class="botoes-projeto">
-                                <a href="https://github.com/jeancarloslima/vestibular-fatec-itaquaquecetuba"
-                                    target="_blank" class="botao-projeto botao-acessar-repositorio">Acessar
-                                    repositório</a>
-                                <a href="https://vestibular-fatec-itaquaquecetuba.vercel.app" target="_blank"
-                                    class="botao-projeto botao-acessar-projeto">Acessar
-                                    projeto</a>
-                            </div>
-                        </div>
-                    </li>
+              </div>
+            </li>
+            <li class="projetos-item">
+              <img
+                src="images/metodo-pomodoro-print.PNG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Método Pomodoro</h3>
+                <p class="descricao-projeto">
+                  Um site para execução do método pomodoro, com tempo de foco e
+                  descanso personalizáveis e uma lista de tarefas salva na
+                  localStorage. Foco na aplicação dos hooks useState, useEffect,
+                  useRef e useContext.
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">REACT</li>
+                  <li class="tecnologias-projeto-item">VITE</li>
                 </ul>
-            </section>
-
-            <section id="secao-formacao">
-                <h2 id="titulo-formacao">FORMAÇÃO<span class="destaque-maior">.</span></h2>
-                <ul id="lista-formacao">
-                    <li class="formacao-item">
-                        <h3 class="titulo-formacao">Bacharelado: Engenharia de Software</h3>
-                        <h4 class="instituicao-formacao">Instituto INFNET (EAD)</h4>
-                        <h4 class="periodo-formacao">01/2025 - 12/2028</h4>
-                        <span class="status-formacao">Em Curso</span>
-                    </li>
-                    <li class="formacao-item formacao-concluida">
-                        <h3 class="titulo-formacao">Técnologo: Gestão de Tecnologia da Informação</h3>
-                        <h4 class="instituicao-formacao">FATEC Itaquaquecetuba</h4>
-                        <h4 class="periodo-formacao">01/2023 - 12/2025</h4>
-                        <span class="status-formacao">Concluído</span>
-                    </li>
-                    <li class="formacao-item formacao-concluida">
-                        <h3 class="titulo-formacao">Ensino Médio Técnico - Análise e Desenvolvimento de Sistemas</h3>
-                        <h4 class="instituicao-formacao">ETEC Itaquaquecetuba</h4>
-                        <h4 class="periodo-formacao">01/2020 - 12/2022</h4>
-                        <span class="status-formacao">Concluído</span>
-                    </li>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/metodo-pomorodo"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://metodo-pomorodo.vercel.app/"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="projetos-item">
+              <img
+                src="images/quiz-bandeiras-print.PNG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Quiz de Bandeiras</h3>
+                <p class="descricao-projeto">
+                  Um jogo de escolher o nome certo do país de acordo com a
+                  bandeira mostrada, feito consumindo uma API.
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">HTML</li>
+                  <li class="tecnologias-projeto-item">CSS</li>
+                  <li class="tecnologias-projeto-item">JAVASCRIPT</li>
                 </ul>
-            </section>
-
-            <section id="secao-experiencia">
-                <h2 id="titulo-experiencia">Experiência<span class="destaque-maior">.</span></h2>
-                <ul id="lista-experiencia">
-                    <li class="experiencia-item">
-                        Não possuo nenhuma experiência na área ainda. <br> Me ajude a conseguir a primeira. &#128512;
-                    </li>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/quiz-bandeiras"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://quiz-bandeiras-one.vercel.app/"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="projetos-item">
+              <img
+                src="images/metodo-kanban-print.PNG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Método Kanban</h3>
+                <p class="descricao-projeto">
+                  Um projeto com um quadro do método kanban funcional. Com
+                  adição, edição e exclusão dos cards com localStorage.
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">HTML</li>
+                  <li class="tecnologias-projeto-item">CSS</li>
+                  <li class="tecnologias-projeto-item">JAVASCRIPT</li>
                 </ul>
-            </section>
-        </div>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/Metodo-kanban"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://metodo-kanban.vercel.app/"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="projetos-item">
+              <img
+                src="images/editor-pixel-art-print.JPG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Criador de Pixel Art</h3>
+                <p class="descricao-projeto">
+                  Um criador de pixel art com ferramentas como cor principal e
+                  secundária com color picker, mudança do tamanho do lápis, do
+                  tamanho da tela de criação e botão limpar tudo.
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">HTML</li>
+                  <li class="tecnologias-projeto-item">CSS</li>
+                  <li class="tecnologias-projeto-item">JAVASCRIPT</li>
+                </ul>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/editor-pixel-art"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://editor-pixel-art.vercel.app"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="projetos-item">
+              <img
+                src="images/vestibular-fatec-itaqua-print.JPG"
+                alt=""
+                class="imagem-projeto"
+              />
+              <div class="resumo-projeto">
+                <h3 class="titulo-projeto">Vestibular FATEC Itaquaquecetuba</h3>
+                <p class="descricao-projeto">
+                  Um site estático dedicado ao vestibular da faculdade de
+                  tecnologia de Itaquaquecetuba, visando fornecer as informações
+                  acerca do mesmo de forma simples e direta. Desenvolvido como
+                  projeto de faculdade com o auxílio do também aluno
+                  <a target="_blank" href="https://github.com/DataGusIT"
+                    ><span class="destaque">Gustavo</span></a
+                  >.
+                </p>
+                <ul class="lista-tecnologias-projeto">
+                  <li class="tecnologias-projeto-item">HTML</li>
+                  <li class="tecnologias-projeto-item">CSS</li>
+                  <li class="tecnologias-projeto-item">JAVASCRIPT</li>
+                </ul>
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/jeancarloslima/vestibular-fatec-itaquaquecetuba"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-repositorio"
+                    >Acessar repositório</a
+                  >
+                  <a
+                    href="https://vestibular-fatec-itaquaquecetuba.vercel.app"
+                    target="_blank"
+                    class="botao-projeto botao-acessar-projeto"
+                    >Acessar projeto</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="secao-formacao">
+          <h2 id="titulo-formacao">
+            FORMAÇÃO<span class="destaque-maior">.</span>
+          </h2>
+          <ul id="lista-formacao">
+            <li class="formacao-item">
+              <h3 class="titulo-formacao">
+                Bacharelado: Engenharia de Software
+              </h3>
+              <h4 class="instituicao-formacao">Instituto INFNET (EAD)</h4>
+              <h4 class="periodo-formacao">01/2025 - 12/2028</h4>
+              <span class="status-formacao">Em Curso</span>
+            </li>
+            <li class="formacao-item formacao-concluida">
+              <h3 class="titulo-formacao">
+                Técnologo: Gestão de Tecnologia da Informação
+              </h3>
+              <h4 class="instituicao-formacao">FATEC Itaquaquecetuba</h4>
+              <h4 class="periodo-formacao">01/2023 - 12/2025</h4>
+              <span class="status-formacao">Concluído</span>
+            </li>
+            <li class="formacao-item formacao-concluida">
+              <h3 class="titulo-formacao">
+                Ensino Médio Técnico - Análise e Desenvolvimento de Sistemas
+              </h3>
+              <h4 class="instituicao-formacao">ETEC Itaquaquecetuba</h4>
+              <h4 class="periodo-formacao">01/2020 - 12/2022</h4>
+              <span class="status-formacao">Concluído</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="secao-experiencia">
+          <h2 id="titulo-experiencia">
+            Experiência<span class="destaque-maior">.</span>
+          </h2>
+          <ul id="lista-experiencia">
+            <li class="experiencia-item" style="animation: none">
+              <h3 class="titulo-formacao">
+                Desenvolvedor Front-end (Projetos Pessoais & Acadêmicos)
+              </h3>
+              <p
+                style="margin-top: 1rem; font-weight: 400; text-align: justify"
+              >
+                Atualmente, dedico minha rotina ao desenvolvimento de aplicações
+                web completas, simulando desafios reais do mercado. Tenho
+                experiência prática na construção de Single Page Applications
+                responsivas, consumo de APIs RESTful, gerenciamento de estado
+                global e versionamento de código, atuando diariamente como um
+                desenvolvedor ativo.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer>
-        <div id="footer-container">
-            <section id="secao-contato">
-                <h2 id="titulo-contato">CONTATO<span class="destaque-maior">.</span></h2>
-                <ul id="lista-contato">
-                    <li class="contato-item">
-                        <a class="link-contato" target="_blank"
-                            href="https://www.linkedin.com/in/jean-carlos-oliveira-lima-454460281/">
-                            <i class="fa-brands fa-linkedin"></i>
-                            <h3 class="contato-item-titulo">Linkedin</h3>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </li>
-                    <li class="contato-item">
-                        <a class="link-contato" target="_blank" href="https://github.com/jeancarloslima">
-                            <i class="fa-brands fa-github"></i>
-                            <h3 class="contato-item-titulo">Github</h3>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+      <div id="footer-container">
+        <section id="secao-contato">
+          <h2 id="titulo-contato">
+            CONTATO<span class="destaque-maior">.</span>
+          </h2>
+          <ul id="lista-contato">
+            <li class="contato-item">
+              <a
+                class="link-contato"
+                target="_blank"
+                href="https://www.linkedin.com/in/jean-carlos-oliveira-lima-454460281/"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+                <h3 class="contato-item-titulo">Linkedin</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </li>
+            <li class="contato-item">
+              <a
+                class="link-contato"
+                target="_blank"
+                href="https://github.com/jeancarloslima"
+              >
+                <i class="fa-brands fa-github"></i>
+                <h3 class="contato-item-titulo">Github</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
 
-            <p id="paragrafo-copyright">&copy;2026 | Feito por: Jean Carlos Oliveira Lima</p>
-        </div>
+        <p id="paragrafo-copyright">
+          &copy;2026 | Feito por: Jean Carlos Oliveira Lima
+        </p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
