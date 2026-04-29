@@ -418,6 +418,7 @@ header {
 
 .experiencia-item {
   padding: 2rem;
+  line-height: 2rem;
 }
 
 .formacao-item::before,
